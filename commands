@@ -1,4 +1,27 @@
 // https://confluence.atlassian.com/bitbucketserver/basic-git-commands-776639767.html
+…or create a new repository on the command line
+echo "# Learngit" >> README.md
+git init
+git add README.md
+git commit -m "first commit"
+git remote add origin https://github.com/RKrai121/Learngit.git
+git push -u origin master
+…or push an existing repository from the command line
+git remote add origin https://github.com/RKrai121/Learngit.git
+git push -u origin master
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 git config --global user.name "Sam Smith"
